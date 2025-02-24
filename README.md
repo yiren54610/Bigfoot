@@ -1,6 +1,7 @@
 # Bigfoot
 
 ## Link to the Page
+[Final Report](https://yiren54610.github.io/Bigfoot/)
 [BFRO Bigfoot Sighting Incidents Report](https://www.bfro.net/gdb/)
 
 ## Update
