@@ -108,16 +108,56 @@
             }
         }
     </style>
+
+<style>
+    .with-image-bg,
+    .with-video-bg {
+        position: relative;
+        background-size: cover;
+        margin-bottom: 2em;
+
+        /* Center everything inside */
+        min-height: 70svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* White text with a shadow */
+        color: white;
+        text-shadow: 0px 0px 30px black,
+            0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .with-image-bg {
+        background-image: url('cover.jpg');
+    }
+
+    .video-background {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .video-background video {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+</style>
 </head>
 
 <body>
-    <div class="content">
-        <div class="header">
+    <div class="full-width"></div>
+        <div class="header with-image-bg">
             <h1>What’s Standing Between Us and Proof of Bigfoot?</h1>
-            <p class="subhead">A look into BFRO's data</p>
         </div>
+    <div class="content">
+        <p class="subhead">A look into BFRO's data</p>
         <div class="byline">
             <p>By <a href="https://yiren54610.github.io/MVP/index.html">Yiren Lu</a></p>
+        </div>
         </div>
     </div>
     <div class="full-width">
